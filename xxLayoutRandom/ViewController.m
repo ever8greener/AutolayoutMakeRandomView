@@ -116,7 +116,6 @@
          constant:0];
         [self.view addConstraint:cnnRandom];
         
-        
         //width 맞추기.
         cnnRandom =
         [NSLayoutConstraint
@@ -129,11 +128,10 @@
          constant:90];
         [self.view addConstraint:cnnRandom];
         
-        NSLog(@"retain cnt: %d",randomButton.retainCount);
-        NSLog(@"random제약 cnt: %d",cnnRandom.retainCount);
+        //NSLog(@"retain cnt: %d",randomButton.retainCount);
+        //NSLog(@"random제약 cnt: %d",cnnRandom.retainCount);
         
         [randomButton release];
-                NSLog(@"retain cnt: %d",randomButton.retainCount);
     }
     
     [cnnRandom release];
