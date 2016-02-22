@@ -35,7 +35,7 @@
     [cnnHere release];
     
     // ------------------------------------------------------------
-    // "press button 을 " 가로세로 정가운데에서 쪼금만 올라간 위치 (130%)에 고정시킴
+    // "press button 을 " 가로세로 정가운데에서 쪼금만 올라간 위치 (70%)에 고정시킴
     // ------------------------------------------------------------
     UIButton* updateButton = [UIButton new];
     updateButton.backgroundColor = [UIColor grayColor];
@@ -63,7 +63,7 @@
      relatedBy:NSLayoutRelationEqual
      toItem:_viewMain
      attribute:NSLayoutAttributeCenterY
-     multiplier:1.0 * 0.7
+     multiplier:1.0 * 0.7  //70% position
      constant:0];
     [self.view addConstraint:cnnBtnCenterY];
     [cnnBtnCenterY release];
