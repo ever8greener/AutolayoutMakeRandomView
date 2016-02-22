@@ -9,7 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (retain, nonatomic) IBOutlet UIView *viewMain;
+@property (retain, nonatomic) IBOutlet UILabel *lblJust;
 
+@property (retain, nonatomic) IBOutlet NSLayoutConstraint *constraintXCenter;
 
 @end
 
